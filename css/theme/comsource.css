@@ -172,7 +172,5 @@ body {
 
 img .no-border {
   border: 0;
-  -webkit-box-shadow: compact(none 0 0 0, false, false, false, false, false, false, false, false, false);
-  -moz-box-shadow: compact(none 0 0 0, false, false, false, false, false, false, false, false, false);
-  box-shadow: compact(none 0 0 0, false, false, false, false, false, false, false, false, false);
+  box-shadow: none;
 }
