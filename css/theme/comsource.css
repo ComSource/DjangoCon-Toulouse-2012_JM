@@ -171,8 +171,6 @@ body {
 }
 
 img.no-border {
-  -webkit-box-shadow: compact(white 0 0 0, false, false, false, false, false, false, false, false, false);
-  -moz-box-shadow: compact(white 0 0 0, false, false, false, false, false, false, false, false, false);
-  box-shadow: compact(white 0 0 0, false, false, false, false, false, false, false, false, false);
-  border: none;
+  box-shadow: 0 0 0 white !important;
+  border: 0 !important;
 }
