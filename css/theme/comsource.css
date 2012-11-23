@@ -186,3 +186,15 @@ img.no-border {
 .icon {
   font-family: 'WebSymbolsRegular' !important;
 }
+.icon.green {
+  color: #c5d87e;
+}
+.icon.orange {
+  color: #f8b216;
+}
+.icon.grey {
+  color: #8e8e8e;
+}
+.icon.blue {
+  color: #6fc6d9;
+}
