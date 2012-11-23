@@ -93,5 +93,11 @@ img {
 
 }
 
-.icon { font-family:'WebSymbolsRegular' !important }
+.icon {
+    font-family:'WebSymbolsRegular' !important;
+    &.green { color:$cs_green }
+    &.orange { color:$cs_orange }
+    &.grey { color:$cs_grey }
+    &.blue { color:$cs_blue }
+}
 
