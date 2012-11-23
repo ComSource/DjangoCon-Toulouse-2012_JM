@@ -79,3 +79,19 @@ img {
         border:0 !important;
     }
 }
+
+// Fonts
+@font-face {
+    font-family: 'WebSymbolsRegular';
+    src: url('../../lib/font/websymbols-regular-webfont.eot');
+    src: url('../../lib/font/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../lib/font/websymbols-regular-webfont.woff') format('woff'),
+         url('../../lib/font/websymbols-regular-webfont.ttf') format('truetype'),
+         url('../../lib/font/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+i.icon { font-family:'WebSymbolsRegular' }
+
